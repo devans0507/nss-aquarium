@@ -1,23 +1,28 @@
-.interest {
-    border: 1px dotted crimson;
-    padding: 1em;
-    margin: 0.5em;
-}
-.bio__interests {
-    display: flex;  /* Display the child items in a Flex layout */
-}
-.bio__interests {
+header {
     display: flex;
-    flex-wrap: wrap;  /* Let the rows wrap if there are too many */
+    justify-content: space-around;
+    align-items: center;
 }
-.bio__interests {
+
+article {
+    border: 2px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.hero {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly; /* Evenly space the child elements */
+    justify-content: space-around;
 }
-.interest {
-    flex-basis: 16%;  /* Make each child element the same width */
-    border: 1px dotted crimson;
-    padding: 1em;
-    margin: 0.5em;
+
+.column-left {
+    width: 50%;
+}
+
+.column-right {
+    width: 25%;
+    align-items: center;
+    border: 2px solid black;
 }
